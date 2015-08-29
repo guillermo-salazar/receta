@@ -32,8 +32,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-
+gem 'sprockets', '2.12.4'
 gem 'bower-rails'
+gem 'angular-rails-templates'
 gem 'foreman'
 group :production, :staging do
   gem 'rails_12factor'
@@ -56,4 +57,3 @@ group :development, :test do
   gem 'database_cleaner'
   gem 'selenium-webdriver'
 end
-
